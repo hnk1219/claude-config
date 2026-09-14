@@ -1,7 +1,9 @@
 /*
 !/.gitignore
 !/CLAUDE.md
-!/settings.json
 !/statusline.ps1
+!/settings.template.json
+!/generate-config.ps1
 !/hooks/
-!/hooks/*.ps1
+/hooks/block_bash_outside.ps1
+/hooks/log_access.ps1

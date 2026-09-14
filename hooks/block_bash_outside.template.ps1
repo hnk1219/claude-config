@@ -6,11 +6,11 @@ $allowed = @(
     "D:\hnk\scripts",
     "D:\codeWork",
     "G:\",
-    "C:\Users\hnk12\Documents\maya\scripts",
-    "C:\Users\hnk12\.claude\projects\D--hnk-scripts\memory",
-    "C:\Users\hnk12\.claude\CLAUDE.md",
-    "C:\Users\hnk12\.claude\settings.json",
-    "C:\Users\hnk12\.claude\access-attempts.log"
+    "C:\Users\__USERNAME__\Documents\maya\scripts",
+    "C:\Users\__USERNAME__\.claude\projects\D--hnk-scripts\memory",
+    "C:\Users\__USERNAME__\.claude\CLAUDE.md",
+    "C:\Users\__USERNAME__\.claude\settings.json",
+    "C:\Users\__USERNAME__\.claude\access-attempts.log"
 )
 
 $pattern = '[A-Za-z]:[\\/][^\s"<>|]+'

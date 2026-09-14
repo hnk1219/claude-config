@@ -9,11 +9,11 @@
     "additionalDirectories": [
       "D:\\codeWork",
       "G:\\マイドライブ",
-      "C:\\Users\\hnk12\\Documents\\maya\\scripts",
-      "C:\\Users\\hnk12\\.claude\\projects\\D--hnk-scripts\\memory",
-      "C:\\Users\\hnk12\\.claude\\CLAUDE.md",
-      "C:\\Users\\hnk12\\.claude\\settings.json",
-      "C:\\Users\\hnk12\\.claude\\access-attempts.log"
+      "C:\\Users\\__USERNAME__\\Documents\\maya\\scripts",
+      "C:\\Users\\__USERNAME__\\.claude\\projects\\D--hnk-scripts\\memory",
+      "C:\\Users\\__USERNAME__\\.claude\\CLAUDE.md",
+      "C:\\Users\\__USERNAME__\\.claude\\settings.json",
+      "C:\\Users\\__USERNAME__\\.claude\\access-attempts.log"
     ],
     "blockReadsOutsideWorkingDirectories": true
   },
@@ -24,12 +24,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude-mem\\sync\\pull.ps1\"",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude-mem\\sync\\pull.ps1\"",
             "timeout": 30
           },
           {
             "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude\\hooks\\session_title_icon.ps1\"",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude\\hooks\\session_title_icon.ps1\"",
             "timeout": 15
           }
         ]
@@ -41,7 +41,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude-mem\\sync\\push.ps1\"",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude-mem\\sync\\push.ps1\"",
             "timeout": 30
           }
         ]
@@ -53,7 +53,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude\\hooks\\block_bash_outside.ps1\""
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude\\hooks\\block_bash_outside.ps1\""
           }
         ]
       },
@@ -62,7 +62,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude\\hooks\\log_access.ps1\"",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude\\hooks\\log_access.ps1\"",
             "timeout": 10
           }
         ]
@@ -71,7 +71,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\hnk12\\.claude\\statusline.ps1\""
+    "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude\\statusline.ps1\""
   },
   "enabledPlugins": {
     "claude-mem@thedotmack": true
