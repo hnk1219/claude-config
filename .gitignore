@@ -1,0 +1,7 @@
+/*
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/statusline.ps1
+!/hooks/
+!/hooks/*.ps1
