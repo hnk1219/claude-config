@@ -7,6 +7,7 @@
       "Bash(git *)",
       "Bash(git -C *)",
       "Bash(cd D:/hnk/scripts && git *)",
+      "Bash(cd /d/hnk/scripts && git *)",
       "Bash(cat *)",
       "Bash(python3 -c *)",
       "Bash(head *)",
