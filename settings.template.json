@@ -4,7 +4,13 @@
       "mcp__ccd_session_mgmt__set_session_title",
       "Bash(cp *)",
       "Bash(python3 *)",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(git -C *)",
+      "Bash(cd D:/hnk/scripts && git *)",
+      "Bash(cat *)",
+      "Bash(python3 -c *)",
+      "Bash(head *)",
+      "Bash(echo *)"
     ],
     "additionalDirectories": [
       "D:\\codeWork",
