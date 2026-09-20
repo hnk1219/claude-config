@@ -1,4 +1,4 @@
-﻿{
+{
   "permissions": {
     "allow": [
       "mcp__ccd_session_mgmt__set_session_title",
@@ -8,6 +8,8 @@
       "Bash(git -C *)",
       "Bash(cd D:/hnk/scripts && git *)",
       "Bash(cd /d/hnk/scripts && git *)",
+      "Bash(cd D:/hnk/scripts)",
+      "Bash(cd /d/hnk/scripts)",
       "Bash(cat *)",
       "Bash(python3 -c *)",
       "Bash(head *)",
