@@ -1,6 +1,6 @@
 ﻿$hostName = $env:COMPUTERNAME
 $emoji = $null
-if ($hostName -eq "DESKTOP-VBKT10N" -or $hostName -eq "DESKTOP-9DFEGBP") { $emoji = [char]::ConvertFromUtf32(0x1F3E0) }
+if ($hostName -eq "DESKTOP-9DFEGBP") { $emoji = [char]::ConvertFromUtf32(0x1F3E0) }
 elseif ($hostName -eq "DESKTOP-JMG505U") { $emoji = [char]::ConvertFromUtf32(0x1F3E2) }
 
 if ($null -eq $emoji) {
