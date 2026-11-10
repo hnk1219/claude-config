@@ -35,11 +35,6 @@
             "type": "command",
             "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude-mem\\sync\\pull.ps1\"",
             "timeout": 30
-          },
-          {
-            "type": "command",
-            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\__USERNAME__\\.claude\\hooks\\session_title_icon.ps1\"",
-            "timeout": 15
           }
         ]
       }
